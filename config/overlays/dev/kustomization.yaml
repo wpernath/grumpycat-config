@@ -11,5 +11,5 @@ images:
 
 - name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs
-  newTag: latest
+  newTag: v0.2.8
   

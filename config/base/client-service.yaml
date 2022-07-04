@@ -12,10 +12,10 @@ metadata:
   name: cat
 spec:
   ports:
-  - name: 8080-tcp
-    port: 8080
+  - name: 8088-tcp
+    port: 8088
     protocol: TCP
-    targetPort: 8080
+    targetPort: 8088
   - name: 8443-tcp
     port: 8443
     protocol: TCP
