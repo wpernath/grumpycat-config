@@ -5,6 +5,6 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:b423bb14e3382e85d57568686a68ffda255a85a2ebca6b0708a72053180f5e44
+- digest: sha256:985045f5fae8eca104ec1310feabd0c0e433e16f6a888730cbc49be7fd7e1613
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat:latest
