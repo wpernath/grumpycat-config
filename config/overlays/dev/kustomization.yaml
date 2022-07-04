@@ -5,10 +5,11 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:a1f8664e1ee4e22db0b1a7f89bed1533614549cb84f497cefc2db771b93fe25a
+- digest: sha256:985045f5fae8eca104ec1310feabd0c0e433e16f6a888730cbc49be7fd7e1613
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
 
 - name: quay.io/wpernath/grumpycat-melonjs:latest
-  newName: quay.io/wpernath/quarkus-grumpycat
+  newName: quay.io/wpernath/grumpycat-melonjs
   newTag: latest
+  
