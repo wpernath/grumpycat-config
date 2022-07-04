@@ -33,6 +33,9 @@ spec:
       - image: quay.io/wpernath/grumpycat-melonjs:latest
         imagePullPolicy: Always
         name: cat
+        env:
+          - name: APPLICATION_BASESERVERURL
+            value: http://grumpycat.cat-dev.svc:8080
         ports:
         - containerPort: 8080
           protocol: TCP
