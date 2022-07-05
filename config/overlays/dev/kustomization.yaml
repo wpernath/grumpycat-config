@@ -4,12 +4,11 @@ kind: Kustomization
 resources:
 - ../../base
 
+
 images:
+- digest: sha256:e5995f42db3f961e4aa391ad93ca04a4c7360290e0bb10bf544ba82d36df4559
+  name: quay.io/wpernath/grumpycat-melonjs:latest
+  newName: quay.io/wpernath/grumpycat-melonjs:latest
 - digest: sha256:985045f5fae8eca104ec1310feabd0c0e433e16f6a888730cbc49be7fd7e1613
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
-
-- name: quay.io/wpernath/grumpycat-melonjs:latest
-  newName: quay.io/wpernath/grumpycat-melonjs
-  newTag: v0.2.8
-  
