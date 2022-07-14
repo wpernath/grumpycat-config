@@ -6,7 +6,7 @@ resources:
 
 
 images:
-- digest: sha256:686c8770eda5409ec01abc38b47bf0dffbb39800d5d33df2bffcdabc50c38e98
+- digest: sha256:62d4dca0facf081a768d7acba71de6f01de7da8274804524accef835528cf8ea
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs:latest
 - digest: sha256:1f924edc0db7bbdec0fd9ca442858694cee3d06b70344b38d0388c3b354de7f6
