@@ -9,8 +9,10 @@ namespace: cat-stage
 images:
 - name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs
+  newTag: v0.5.1
 - name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
+  newTag: v0.5.1
 
 # generate a configmap 
 configMapGenerator:
