@@ -7,7 +7,7 @@ resources:
 namespace: cat-dev
 
 images:
-- digest: sha256:f5b2b49de95807743c645301c26a98030684b91a2ebb9c286fc996ac84ab016d
+- digest: sha256:459e7c4162eabdef19aef34a6fa3cabd976af02de443ded5d64abd2bfd093720
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs:latest
 - digest: sha256:fef381afb06a08069f4305402936f4c8631f0f02294519de1fd1ed9262c2691d
