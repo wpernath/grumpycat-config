@@ -22,6 +22,7 @@ images:
 configMapGenerator:
 - literals:
   - APPLICATION_BASESERVERURL=http://cat-server-cat-dev.apps.cat.ocp.lan/
+  - HELLO=WORLD
   name: client-config
 - literals:
   - KAFKA_BOOTSTRAP_SERVERS=grumpy-kafka-kafka-bootstrap:9092
