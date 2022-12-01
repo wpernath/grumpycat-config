@@ -6,6 +6,10 @@ resources:
 
 namespace: cat-prod
 
+replicas:
+- name: cat-server
+  count: 3
+  
 images:
 - digest: sha256:5d46c75afbf403bc846d08c1377cef63fc475193d47dab4bdefb5479a05bb0c1
   name: quay.io/wpernath/grumpycat-melonjs:latest
