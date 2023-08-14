@@ -10,7 +10,7 @@ images:
 - digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs:latest
-- digest: sha256:acd31cfdbf2753c2b1661c3bdc9158b1d7ae745b21a7a6eb4c84d94d00763167
+- digest: sha256:ec7ce382119920395f813c34c1d973a862edb02096383ab14c0d045a069b0897
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat:latest
 
