@@ -22,7 +22,7 @@ images:
 configMapGenerator:
 - literals:
   - APPLICATION_BASESERVERURL=http://cat-server-cat-dev.apps.cluster-fkqfj.fkqfj.sandbox1665.opentlc.com/
-  - WORKSHOP_TEST_VAR=Hey you!
+  - WORKSHOP_TEST_VAR=Welcome again!
   name: client-config
 - literals:
   - KAFKA_BOOTSTRAP_SERVERS=grumpy-kafka-kafka-bootstrap:9092
