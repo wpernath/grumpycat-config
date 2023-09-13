@@ -7,6 +7,9 @@ resources:
 namespace: cat-stage
 
 images:
+- digest: sha256:73949cf5b96a068f2fa7268b561dbac5086764266e360201ea15f5e3f1fb6291
+  name: quay.io/rbrhssa/quarkus-grumpycat:latest
+  newName: quay.io/rbrhssa/quarkus-grumpycat:v0.7-test
 - digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/rbrhssa/grumpycat-melonjs:v0.6.5
