@@ -9,10 +9,10 @@ namespace: cat-stage
 images:
 - digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
   name: quay.io/wpernath/grumpycat-melonjs:latest
-  newName: quay.io/wpernath/grumpycat-melonjs:v0.6.5
+  newName: quay.io/rbrhssa/grumpycat-melonjs:v0.6.5
 - digest: sha256:5b234e919571f30a231aa7f7fdd25503dc68092c9a6eebe34de1e7427941fc4f
   name: quay.io/wpernath/quarkus-grumpycat:latest
-  newName: quay.io/wpernath/quarkus-grumpycat:v0.6.7.Test1
+  newName: quay.io/rbrhssa/quarkus-grumpycat:v0.6.7.Test1
 
 # generate a configmap 
   # Cat - Client ConfigMap, note that the client app runs entirely on the browser, 
@@ -21,7 +21,7 @@ images:
   # Grumpycat Server configmap, just point to the internal service name of the kafka service
 configMapGenerator:
 - literals:
-  - APPLICATION_BASESERVERURL=http://cat-server-cat-stage.apps.cat.ocp.lan/
+  - APPLICATION_BASESERVERURL=http://cat-server-cat-stage.apps.cluster-fxmxz.fxmxz.sandbox452.opentlc.com/
   name: client-config
 - literals:
   - KAFKA_BOOTSTRAP_SERVERS=grumpy-kafka-kafka-bootstrap:9092
