@@ -11,12 +11,12 @@ replicas:
   count: 3
   
 images:
-- name: quay.io/wpernath/grumpycat-melonjs:latest
-  newName: quay.io/wpernath/grumpycat-melonjs
-  newTag: v0.6.6
-- name: quay.io/wpernath/quarkus-grumpycat:latest
-  newName: quay.io/wpernath/quarkus-grumpycat
-  newTag: v0.6.6
+- digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
+  name: quay.io/wpernath/grumpycat-melonjs:latest
+  newName: quay.io/wpernath/grumpycat-melonjs:v0.6.5
+- digest: sha256:c80dbded5ecbb788424d9bfea490cc465056ee5656034cb40aa8bb7c4dbe8084
+  name: quay.io/wpernath/quarkus-grumpycat:latest
+  newName: quay.io/wpernath/quarkus-grumpycat:v0.6.7.Test10
 
 # generate a configmap 
   # Cat - Client ConfigMap, note that the client app runs entirely on the browser, 
