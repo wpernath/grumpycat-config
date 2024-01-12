@@ -4,7 +4,7 @@ kind: Kustomization
 resources:
 - ../../base
 
-namespace: cat-dev
+#namespace: cat-dev
 
 images:
 - digest: sha256:52c4b1d36001ba3be7eb61ba3755ccbc0aa789a7a8aa200939c2ddbeee83fa07
