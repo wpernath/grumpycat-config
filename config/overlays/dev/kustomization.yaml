@@ -25,4 +25,5 @@ configMapGenerator:
   name: client-config
 - literals:
   - KAFKA_BOOTSTRAP_SERVERS=grumpy-kafka-kafka-bootstrap:9092
+  - MY_VERY_IMPORTANT_VAR=hello there
   name: server-config
