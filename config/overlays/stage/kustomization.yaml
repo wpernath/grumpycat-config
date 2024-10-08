@@ -10,10 +10,10 @@ images:
 - digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs:v0.6.5
-- digest: sha256:a7080e29d73994fefc0ed33c954f8323dd14650507bba4b3997111eb8e85efb5
+- digest: sha256:93d0db71278dddd0e643de61dd960f1b5ae83327e139ef01f74e3bbc16b76ff2
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
-  newTag: v0.6.7-david
+  newTag: v0.6.7-lukas
 
 # generate a configmap 
   # Cat - Client ConfigMap, note that the client app runs entirely on the browser, 
