@@ -11,7 +11,7 @@ images:
   name: quay.io/wpernath/grumpycat-melonjs:latest
   newName: quay.io/wpernath/grumpycat-melonjs
   newTag: latest
-- digest: sha256:93b2771db3d163a81bb5f1e5d78f2581ab1d53dd7003cea0e3bd53c93c969bd8
+- digest: sha256:8c33eaa46daca8ef6a704959d7a677c3faa1b22202d3f54a566cc170bc605f63
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
   newTag: latest
