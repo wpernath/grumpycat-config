@@ -13,6 +13,7 @@ metadata:
     app.kubernetes.io/part-of: grumpycat-app
   name: cat-server
 spec:
+  aasdklöfjaölksdjfölkjasdf: asdjklfjkölasdf
   progressDeadlineSeconds: 600
   replicas: 1
   revisionHistoryLimit: 10
@@ -31,6 +32,7 @@ spec:
     spec:
       containers:
       - image: quay.io/wpernath/quarkus-grumpycat:latest
+        image2: quay.io/wpernath/quarkus-grumpycat:latest
         imagePullPolicy: Always
         name: cat-server
         envFrom:
