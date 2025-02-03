@@ -13,7 +13,7 @@ images:
 - digest: sha256:b6d82be28c432375155296ea3fab93609a2290ea57a39bb60e6b99d50fa84d14
   name: quay.io/wpernath/quarkus-grumpycat:latest
   newName: quay.io/wpernath/quarkus-grumpycat
-  newTag: v0.6.7-minja
+  newTag: v0.6.7-Test1
 
 # generate a configmap 
   # Cat - Client ConfigMap, note that the client app runs entirely on the browser, 
