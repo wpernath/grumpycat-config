@@ -8,7 +8,7 @@ resources:
 
 replicas:
 - name: cat-server
-  count: 3
+  count: 1
   
 images:
 - digest: sha256:6c191bb1cfeab23992982dd704421a041f7dfd1c0bee7c53d13b7f047444b13a
