@@ -4,7 +4,7 @@ metadata:
   name: cat
 spec:
   openshift: true
-  postgresVersion: 15
+  postgresVersion: 16
   instances:
     - name: instance1
       replicas: 1
@@ -25,6 +25,7 @@ spec:
             resources:
               requests:
                 storage: 1Gi
+  # make sure that the cat user has access to the public schema
   users:
     - name: cat
       databases:
