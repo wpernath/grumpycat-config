@@ -25,7 +25,7 @@ images:
   # Grumpycat Server configmap, just point to the internal service name of the kafka service
 configMapGenerator:
 - literals:
-  - APPLICATION_BASESERVERURL=http://cat-server-cat-prod.apps.cluster-v6kjz.v6kjz.sandbox1164.opentlc.com/
+  - APPLICATION_BASESERVERURL=http://cat-server-cat-prod.apps.cluster-ql5vr.ql5vr.sandbox2443.opentlc.com/
   name: client-config
 - literals:
   - KAFKA_BOOTSTRAP_SERVERS=grumpy-kafka-kafka-bootstrap:9092
